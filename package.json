@@ -1,0 +1,24 @@
+{
+  "name": "projok",
+  "version": "1.0.0",
+  "description": "Sample Okta project to test nodejs logon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palakchheda/projectok.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palakchheda/projectok/issues"
+  },
+  "homepage": "https://github.com/palakchheda/projectok#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
